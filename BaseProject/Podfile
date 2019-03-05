@@ -1,0 +1,14 @@
+platform :ios,'10.0'
+target 'BaseProject' do
+pod 'AFNetworking'
+pod 'Masonry'
+pod 'YYKit'
+pod 'MJRefresh'
+pod 'MBProgressHUD'
+pod 'SDWebImage'
+#pod 'Tools', :git => 'https://github.com/chuzhaozhi/Tools.git'
+pod 'IQKeyboardManager'
+pod 'SDCycleScrollView'
+
+pod 'FDFullscreenPopGesture'
+end 
