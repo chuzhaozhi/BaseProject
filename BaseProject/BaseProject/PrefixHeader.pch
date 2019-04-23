@@ -16,7 +16,7 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
-#define NAV_BACK_IMG_NAME @"back"
+#define NAV_BACK_IMG_NAME @"ic_back"
 
 #define COLOR_BACKGROUND    RGB(240, 240, 240)   //底层View背景颜色
 #define COLOR_NAV_TITLE     COLOR_THEME//nav标题颜色
@@ -60,16 +60,7 @@
 #define LZTabBarHeight 49
 
 #define  TAG_CartEmptyView 100
-/**
- *  系统默认导航栏(44)加状态栏(20)高度
- */
-#define NAV_HEIGHT  (ScreenH == 812 ?  88 : 64)
 
-#define STATUS_HEIGHT (ScreenH == 812 ?  44 : 20)
-/**
- *  系统默认底部标签栏高度
- */
-#define TAB_HEIGHT  (ScreenH == 812 ? 83 : 49)
 /**
  * 分页数据每页条数
  */
@@ -87,27 +78,42 @@
 #define MAS_SHORTHAND_GLOBALS
 #define URL_Test @""
 
-// iPhone5 iPhone5s iPhoneSE
+//判断iPhone4系列
+#define kiPhone4 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size): NO)
+//判断iPhone5系列
+#define kiPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size): NO)
+//判断iPhone6系列
+#define kiPhone6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size): NO)
+//判断iphone6+系列
+#define kiPhone6Plus ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size): NO)
+//判断iPhoneX
+#define IS_IPHONE_X ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size): NO)
+//判断iPHoneXr
+#define IS_IPHONE_Xr ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(828, 1792), [[UIScreen mainScreen] currentMode].size): NO)
+//判断iPhoneXs
+#define IS_IPHONE_Xs ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size): NO)
+//判断iPhoneXs Max
+#define IS_IPHONE_Xs_Max ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2688), [[UIScreen mainScreen] currentMode].size) : NO)
 
-#define IS_iPhone_5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
 
-// iPhone6 7 8
+/**
+ *  系统默认导航栏(44)加状态栏(20)高度
+ */
+#define NAV_HEIGHT  ((IS_IPHONE_X==YES || IS_IPHONE_Xr ==YES || IS_IPHONE_Xs== YES || IS_IPHONE_Xs_Max== YES) ? 88.0 : 64.0)
 
-#define IS_iPhone_6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? (CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size)) : NO)
+#define STATUS_HEIGHT ((IS_IPHONE_X==YES || IS_IPHONE_Xr ==YES || IS_IPHONE_Xs== YES || IS_IPHONE_Xs_Max== YES) ? 44.0 : 20.0)
+/**
+ *  系统默认底部标签栏高度
+ */
+#define TAB_HEIGHT  ((IS_IPHONE_X==YES || IS_IPHONE_Xr ==YES || IS_IPHONE_Xs== YES || IS_IPHONE_Xs_Max== YES) ? 83.0 : 49.0)
 
-// iPhone6plus  iPhone7plus iPhone8plus
-
-#define IS_iPhone6_Plus ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? (CGSizeEqualToSize(CGSizeMake(1125, 2001), [[UIScreen mainScreen] currentMode].size) || CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size)) : NO)
-
-// iPhoneX
-
-#define IS_iPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
 
 //  Api
 /**
  *  base_url
  */
 #define BASE_URL @""  //  base url
+#define BASE_URL_N @""  //  base url
 
 
 
