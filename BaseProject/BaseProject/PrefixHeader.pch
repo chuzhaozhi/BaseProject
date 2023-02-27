@@ -130,7 +130,6 @@
 #import "BaseViewController.h"
 #import "BaseNavgationController.h"
 #import <WebKit/WebKit.h>
-#import "WebViewController.h"
 //第三方
 #import <YYKit.h>
 #import <MBProgressHUD.h>
