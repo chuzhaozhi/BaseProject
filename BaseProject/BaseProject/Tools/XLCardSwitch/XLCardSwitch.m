@@ -9,7 +9,6 @@
 #import "XLCardSwitch.h"
 #import "XLCardSwitchFlowLayout.h"
 #import "XLCardCell.h"
-#import "HomeCollectionViewCell.h"
 @interface XLCardSwitch ()<UICollectionViewDelegate,UICollectionViewDataSource>
 
 @property (nonatomic, strong) UICollectionView *collectionView;
@@ -53,8 +52,7 @@
     self.collectionView = [[UICollectionView alloc] initWithFrame:self.bounds collectionViewLayout:flowLayout];
     self.collectionView.showsHorizontalScrollIndicator = false;
     self.collectionView.backgroundColor = [UIColor clearColor];
-//    [self.collectionView registerClass:[XLCardCell class] forCellWithReuseIdentifier:@"HomeCollectionViewCell"];
-    [self.collectionView registerNib:[UINib nibWithNibName:@"HomeCollectionViewCell" bundle:[NSBundle mainBundle]] forCellWithReuseIdentifier:@"HomeCollectionViewCell"];
+    [self.collectionView registerClass:[XLCardCell class] forCellWithReuseIdentifier:@"XLCardCell"];
     self.collectionView.userInteractionEnabled = true;
     self.collectionView.delegate = self;
     self.collectionView.dataSource = self;
@@ -79,10 +77,7 @@
     _models = models;
     [self.collectionView reloadData];
 }
--(void)setDataSource:(NSArray<HomeListModel *> *)dataSource{
-    _dataSource = dataSource;
-    [self.collectionView reloadData];
-}
+
 #pragma mark -
 #pragma mark CollectionDelegate
 //配置cell居中
@@ -136,7 +131,7 @@
 #pragma mark CollectionDataSource
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return self.dataSource.count;
+    return self.models.count;
 }
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
@@ -144,9 +139,8 @@
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    static NSString* cellId = @"HomeCollectionViewCell";
-    HomeCollectionViewCell* card = [collectionView dequeueReusableCellWithReuseIdentifier:cellId forIndexPath:indexPath];
-    [card setCellInfoWithModel:self.dataSource[indexPath.row]];
+    static NSString* cellId = @"XLCardCell";
+    XLCardCell* card = [collectionView dequeueReusableCellWithReuseIdentifier:cellId forIndexPath:indexPath];
     return  card;
 }
 

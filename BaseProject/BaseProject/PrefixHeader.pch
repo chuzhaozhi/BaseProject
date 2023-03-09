@@ -122,7 +122,6 @@
 
 //  工具类
 #import <Masonry/Masonry.h>
-#import "PPNetworkHelper.h"
 //基础类
 #import "AppDelegate.h"
 #import <UIKit/UIKit.h>
@@ -133,13 +132,6 @@
 //第三方
 #import <YYKit.h>
 #import <MBProgressHUD.h>
-#import "AFNetworking.h"
-#import "AFNetworkActivityIndicatorManager.h"
-#import "UIImageView+WebCache.h"
-#import "MJRefresh.h"
-#import "HYPageView.h"
-#import "SDCycleScrollView.h"
-#import "UserDefaults.h"
 
 
 #import "FirstItemViewController.h"

@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "XLCardModel.h"
-#import "HomeListModel.h"
 @protocol XLCardSwitchDelegate <NSObject>
 
 @optional
@@ -34,7 +33,6 @@
  设置数据源
  */
 @property (nonatomic, strong) NSArray <XLCardModel *>*models;
-@property (nonatomic, strong) NSArray <HomeListModel *>*dataSource;
 /**
  代理
  */
