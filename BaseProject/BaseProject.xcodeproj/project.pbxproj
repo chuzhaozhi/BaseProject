@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,23 +15,7 @@
 		03668167222E104400C1741C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03668166222E104400C1741C /* main.m */; };
 		03668171222E104400C1741C /* BaseProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03668170222E104400C1741C /* BaseProjectTests.m */; };
 		0366817C222E104400C1741C /* BaseProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0366817B222E104400C1741C /* BaseProjectUITests.m */; };
-		036681CC222E119700C1741C /* PPNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0366819C222E119600C1741C /* PPNetworkHelper.m */; };
-		036681CD222E119700C1741C /* UserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 0366819D222E119600C1741C /* UserDefaults.m */; };
-		036681CE222E119700C1741C /* WebShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0366819F222E119600C1741C /* WebShareView.m */; };
-		036681CF222E119700C1741C /* LXWaveProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 036681A4222E119600C1741C /* LXWaveProgressView.m */; };
-		036681D0222E119700C1741C /* HYPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 036681A5222E119600C1741C /* HYPageView.m */; };
-		036681D1222E119700C1741C /* UIImage+GradientColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 036681A6222E119600C1741C /* UIImage+GradientColor.m */; };
-		036681D2222E119700C1741C /* customActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 036681A9222E119600C1741C /* customActivity.m */; };
-		036681D4222E119700C1741C /* BadgeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 036681AE222E119700C1741C /* BadgeButton.m */; };
-		036681D5222E119700C1741C /* UIColor+ColorHexadecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 036681AF222E119700C1741C /* UIColor+ColorHexadecimal.m */; };
-		036681D6222E119700C1741C /* GuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 036681B1222E119700C1741C /* GuideView.m */; };
-		036681D7222E119700C1741C /* PPNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 036681B2222E119700C1741C /* PPNetworkCache.m */; };
 		036681D8222E119700C1741C /* BaseViewController+LoginAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 036681B6222E119700C1741C /* BaseViewController+LoginAction.m */; };
-		036681D9222E119700C1741C /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036681BA222E119700C1741C /* WebViewController.m */; };
-		036681DA222E119700C1741C /* WebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 036681BC222E119700C1741C /* WebViewProgress.m */; };
-		036681DB222E119700C1741C /* WebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 036681BD222E119700C1741C /* WebViewProgressView.m */; };
-		036681DC222E119700C1741C /* RootWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036681C0222E119700C1741C /* RootWebViewController.m */; };
-		036681DD222E119700C1741C /* WebNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036681C1222E119700C1741C /* WebNavigationViewController.m */; };
 		036681DE222E119700C1741C /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036681C3222E119700C1741C /* BaseViewController.m */; };
 		036681DF222E119700C1741C /* BaseNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036681C5222E119700C1741C /* BaseNavgationController.m */; };
 		036681E0222E119700C1741C /* BaseTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036681C9222E119700C1741C /* BaseTabbarController.m */; };
@@ -40,6 +24,109 @@
 		036681EA222E13AC00C1741C /* SecondItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036681E9222E13AC00C1741C /* SecondItemViewController.m */; };
 		036681ED222E13BA00C1741C /* ThirdItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036681EC222E13BA00C1741C /* ThirdItemViewController.m */; };
 		036681F0222E13C700C1741C /* FourthItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036681EF222E13C700C1741C /* FourthItemViewController.m */; };
+		5A65E5CC29B962B200CA7D10 /* UITextField+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E4F129B962B200CA7D10 /* UITextField+Placeholder.m */; };
+		5A65E5CD29B962B200CA7D10 /* UIView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E4F329B962B200CA7D10 /* UIView+CornerRadius.m */; };
+		5A65E5CE29B962B200CA7D10 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E4F429B962B200CA7D10 /* Tools.m */; };
+		5A65E5CF29B962B200CA7D10 /* UIImage+Cache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E4F529B962B200CA7D10 /* UIImage+Cache.m */; };
+		5A65E5D029B962B200CA7D10 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E4F729B962B200CA7D10 /* UITextView+Placeholder.m */; };
+		5A65E5D129B962B200CA7D10 /* StoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E4F829B962B200CA7D10 /* StoreDataHelper.m */; };
+		5A65E5D229B962B200CA7D10 /* HXPhotoConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E4FA29B962B200CA7D10 /* HXPhotoConfiguration.m */; };
+		5A65E5D329B962B200CA7D10 /* HXPhotoEditTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E4FD29B962B200CA7D10 /* HXPhotoEditTransition.m */; };
+		5A65E5D429B962B200CA7D10 /* HXPhotoInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E4FE29B962B200CA7D10 /* HXPhotoInteractiveTransition.m */; };
+		5A65E5D529B962B200CA7D10 /* HXPhotoViewPresentTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E4FF29B962B200CA7D10 /* HXPhotoViewPresentTransition.m */; };
+		5A65E5D629B962B200CA7D10 /* HXPhotoPersentInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E50029B962B200CA7D10 /* HXPhotoPersentInteractiveTransition.m */; };
+		5A65E5D729B962B200CA7D10 /* HXPhotoViewTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E50229B962B200CA7D10 /* HXPhotoViewTransition.m */; };
+		5A65E5D829B962B200CA7D10 /* NSString+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E50729B962B200CA7D10 /* NSString+HXExtension.m */; };
+		5A65E5D929B962B200CA7D10 /* UIViewController+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E50829B962B200CA7D10 /* UIViewController+HXExtension.m */; };
+		5A65E5DA29B962B200CA7D10 /* NSArray+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E50929B962B200CA7D10 /* NSArray+HXExtension.m */; };
+		5A65E5DB29B962B200CA7D10 /* NSBundle+HXPhotoPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E50A29B962B200CA7D10 /* NSBundle+HXPhotoPicker.m */; };
+		5A65E5DC29B962B300CA7D10 /* UIImageView+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E51029B962B200CA7D10 /* UIImageView+HXExtension.m */; };
+		5A65E5DD29B962B300CA7D10 /* UIFont+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E51229B962B200CA7D10 /* UIFont+HXExtension.m */; };
+		5A65E5DE29B962B300CA7D10 /* UIView+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E51429B962B200CA7D10 /* UIView+HXExtension.m */; };
+		5A65E5DF29B962B300CA7D10 /* UIImage+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E51829B962B200CA7D10 /* UIImage+HXExtension.m */; };
+		5A65E5E029B962B300CA7D10 /* PHAsset+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E51929B962B200CA7D10 /* PHAsset+HXExtension.m */; };
+		5A65E5E129B962B300CA7D10 /* NSDate+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E51A29B962B200CA7D10 /* NSDate+HXExtension.m */; };
+		5A65E5E229B962B300CA7D10 /* UIColor+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E51B29B962B200CA7D10 /* UIColor+HXExtension.m */; };
+		5A65E5E329B962B300CA7D10 /* NSTimer+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E51C29B962B200CA7D10 /* NSTimer+HXExtension.m */; };
+		5A65E5E429B962B300CA7D10 /* UIButton+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E51F29B962B200CA7D10 /* UIButton+HXExtension.m */; };
+		5A65E5E529B962B300CA7D10 /* UILabel+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E52229B962B200CA7D10 /* UILabel+HXExtension.m */; };
+		5A65E5E629B962B300CA7D10 /* HXPhotoCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E52329B962B200CA7D10 /* HXPhotoCommon.m */; };
+		5A65E5E729B962B300CA7D10 /* HXPhotoPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5A65E52629B962B200CA7D10 /* HXPhotoPicker.bundle */; };
+		5A65E5E829B962B300CA7D10 /* HXAssetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E52729B962B200CA7D10 /* HXAssetManager.m */; };
+		5A65E5E929B962B300CA7D10 /* HXPhotoTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E52829B962B200CA7D10 /* HXPhotoTools.m */; };
+		5A65E5EA29B962B300CA7D10 /* EventListHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A65E52929B962B200CA7D10 /* EventListHeadView.xib */; };
+		5A65E5EB29B962B300CA7D10 /* HXPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E52A29B962B200CA7D10 /* HXPhotoManager.m */; };
+		5A65E5EC29B962B300CA7D10 /* HXCustomCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E52D29B962B200CA7D10 /* HXCustomCameraViewController.m */; };
+		5A65E5ED29B962B300CA7D10 /* HXPhoto3DTouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E52F29B962B200CA7D10 /* HXPhoto3DTouchViewController.m */; };
+		5A65E5EE29B962B300CA7D10 /* HXAlbumListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E53129B962B200CA7D10 /* HXAlbumListViewController.m */; };
+		5A65E5EF29B962B300CA7D10 /* HXPhotoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E53229B962B200CA7D10 /* HXPhotoPreviewViewController.m */; };
+		5A65E5F029B962B300CA7D10 /* HXPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E53429B962B200CA7D10 /* HXPhotoViewController.m */; };
+		5A65E5F129B962B300CA7D10 /* HXCustomCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E53629B962B200CA7D10 /* HXCustomCameraController.m */; };
+		5A65E5F229B962B300CA7D10 /* HXCustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E53829B962B200CA7D10 /* HXCustomNavigationController.m */; };
+		5A65E5F329B962B300CA7D10 /* HXPhotoEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E53C29B962B200CA7D10 /* HXPhotoEditViewController.m */; };
+		5A65E5F429B962B300CA7D10 /* HXVideoEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E53E29B962B200CA7D10 /* HXVideoEditViewController.m */; };
+		5A65E5F529B962B300CA7D10 /* HXPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E54429B962B200CA7D10 /* HXPhotoModel.m */; };
+		5A65E5F629B962B300CA7D10 /* HXPickerResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E54629B962B200CA7D10 /* HXPickerResult.m */; };
+		5A65E5F729B962B300CA7D10 /* HXCustomAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E54729B962B200CA7D10 /* HXCustomAssetModel.m */; };
+		5A65E5F829B962B300CA7D10 /* HXAlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E54829B962B200CA7D10 /* HXAlbumModel.m */; };
+		5A65E5F929B962B300CA7D10 /* HXPhotoPreviewBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E54D29B962B200CA7D10 /* HXPhotoPreviewBottomView.m */; };
+		5A65E5FA29B962B300CA7D10 /* HXPhotoPreviewLivePhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E54F29B962B200CA7D10 /* HXPhotoPreviewLivePhotoCell.m */; };
+		5A65E5FB29B962B300CA7D10 /* HXCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E55329B962B200CA7D10 /* HXCollectionView.m */; };
+		5A65E5FC29B962B300CA7D10 /* HXCameraBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E55829B962B200CA7D10 /* HXCameraBottomView.m */; };
+		5A65E5FD29B962B300CA7D10 /* HXPhotoPreviewVideoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E55929B962B200CA7D10 /* HXPhotoPreviewVideoViewCell.m */; };
+		5A65E5FE29B962B300CA7D10 /* HXPhotoCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E55A29B962B200CA7D10 /* HXPhotoCustomNavigationBar.m */; };
+		5A65E5FF29B962B300CA7D10 /* HXPhotoBottomSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E55B29B962B200CA7D10 /* HXPhotoBottomSelectView.m */; };
+		5A65E60029B962B300CA7D10 /* HXPreviewImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E55E29B962B200CA7D10 /* HXPreviewImageView.m */; };
+		5A65E60129B962B300CA7D10 /* HXPreviewContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E55F29B962B200CA7D10 /* HXPreviewContentView.m */; };
+		5A65E60229B962B300CA7D10 /* HXPhotoViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E56029B962B200CA7D10 /* HXPhotoViewFlowLayout.m */; };
+		5A65E60329B962B300CA7D10 /* HXPhotoLimitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E56129B962B200CA7D10 /* HXPhotoLimitView.m */; };
+		5A65E60429B962B300CA7D10 /* HXPreviewLivePhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E56429B962B200CA7D10 /* HXPreviewLivePhotoView.m */; };
+		5A65E60529B962B300CA7D10 /* HXCustomCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E56729B962B200CA7D10 /* HXCustomCollectionReusableView.m */; };
+		5A65E60629B962B300CA7D10 /* HXPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E56829B962B200CA7D10 /* HXPhotoView.m */; };
+		5A65E60729B962B300CA7D10 /* HXFullScreenCameraPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E56929B962B200CA7D10 /* HXFullScreenCameraPlayView.m */; };
+		5A65E60829B962B300CA7D10 /* HXPhotoSubViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E56A29B962B200CA7D10 /* HXPhotoSubViewCell.m */; };
+		5A65E60929B962B300CA7D10 /* HXAlbumlistView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E56F29B962B200CA7D10 /* HXAlbumlistView.m */; };
+		5A65E60A29B962B300CA7D10 /* HXCustomPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E57029B962B200CA7D10 /* HXCustomPreviewView.m */; };
+		5A65E60B29B962B300CA7D10 /* HXPreviewVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E57129B962B200CA7D10 /* HXPreviewVideoView.m */; };
+		5A65E60C29B962B300CA7D10 /* HXCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E57229B962B200CA7D10 /* HXCircleProgressView.m */; };
+		5A65E60D29B962B300CA7D10 /* HXPhotoPreviewViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E57329B962B200CA7D10 /* HXPhotoPreviewViewCell.m */; };
+		5A65E60E29B962B300CA7D10 /* HXPhotoPreviewImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E57829B962B200CA7D10 /* HXPhotoPreviewImageViewCell.m */; };
+		5A65E60F29B962B300CA7D10 /* HXPhotoEditConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E57C29B962B200CA7D10 /* HXPhotoEditConfiguration.m */; };
+		5A65E61029B962B300CA7D10 /* HX_PhotoEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E58029B962B200CA7D10 /* HX_PhotoEditViewController.m */; };
+		5A65E61129B962B300CA7D10 /* HXPhotoEditChartletModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E58529B962B200CA7D10 /* HXPhotoEditChartletModel.m */; };
+		5A65E61229B962B300CA7D10 /* HXMECancelBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E58629B962B200CA7D10 /* HXMECancelBlock.m */; };
+		5A65E61329B962B300CA7D10 /* HXPhotoEditGraffitiColorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E58729B962B200CA7D10 /* HXPhotoEditGraffitiColorModel.m */; };
+		5A65E61429B962B300CA7D10 /* HXPhotoEditResizeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E58A29B962B200CA7D10 /* HXPhotoEditResizeControl.m */; };
+		5A65E61529B962B300CA7D10 /* HXPhotoClippingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E58B29B962B200CA7D10 /* HXPhotoClippingView.m */; };
+		5A65E61629B962B300CA7D10 /* HXPhotoEditStickerTrashView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E58D29B962B200CA7D10 /* HXPhotoEditStickerTrashView.m */; };
+		5A65E61729B962B300CA7D10 /* HXPhotoEditImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E58F29B962B200CA7D10 /* HXPhotoEditImageView.m */; };
+		5A65E61829B962B300CA7D10 /* HXPhotoEditSplashView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E59029B962B200CA7D10 /* HXPhotoEditSplashView.m */; };
+		5A65E61929B962B300CA7D10 /* HXPhotoEditClippingToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E59429B962B200CA7D10 /* HXPhotoEditClippingToolBar.m */; };
+		5A65E61A29B962B300CA7D10 /* HX_PhotoEditBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E59629B962B200CA7D10 /* HX_PhotoEditBottomView.m */; };
+		5A65E61B29B962B300CA7D10 /* HXPhotoEditGridMaskLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E59729B962B200CA7D10 /* HXPhotoEditGridMaskLayer.m */; };
+		5A65E61C29B962B300CA7D10 /* HXPhotoEditStickerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E59A29B962B200CA7D10 /* HXPhotoEditStickerItem.m */; };
+		5A65E61D29B962B300CA7D10 /* HXPhotoEditGraffitiColorSizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E59C29B962B200CA7D10 /* HXPhotoEditGraffitiColorSizeView.m */; };
+		5A65E61E29B962B300CA7D10 /* HXPhotoEditStickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E59D29B962B200CA7D10 /* HXPhotoEditStickerView.m */; };
+		5A65E61F29B962B300CA7D10 /* HXPhotoEditChartletContentViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E59E29B962B200CA7D10 /* HXPhotoEditChartletContentViewCell.m */; };
+		5A65E62029B962B300CA7D10 /* HXPhotoEditingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E59F29B962B200CA7D10 /* HXPhotoEditingView.m */; };
+		5A65E62129B962B300CA7D10 /* HXPhotoEditSplashMaskLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E5A129B962B200CA7D10 /* HXPhotoEditSplashMaskLayer.m */; };
+		5A65E62229B962B300CA7D10 /* HXPhotoEditChartletListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E5A429B962B200CA7D10 /* HXPhotoEditChartletListView.m */; };
+		5A65E62329B962B300CA7D10 /* HXPhotoEditDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E5A829B962B200CA7D10 /* HXPhotoEditDrawView.m */; };
+		5A65E62429B962B300CA7D10 /* HXPhotoEditStickerItemContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E5A929B962B200CA7D10 /* HXPhotoEditStickerItemContentView.m */; };
+		5A65E62529B962B300CA7D10 /* HXPhotoEditChartletPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E5AA29B962B200CA7D10 /* HXPhotoEditChartletPreviewView.m */; };
+		5A65E62629B962B300CA7D10 /* HXPhotoEditGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E5AD29B962B200CA7D10 /* HXPhotoEditGridView.m */; };
+		5A65E62729B962B300CA7D10 /* HXPhotoEditMosaicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E5AE29B962B200CA7D10 /* HXPhotoEditMosaicView.m */; };
+		5A65E62829B962B300CA7D10 /* HXPhotoEditGraffitiColorViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E5B029B962B200CA7D10 /* HXPhotoEditGraffitiColorViewCell.m */; };
+		5A65E62929B962B300CA7D10 /* HXPhotoEditStickerItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E5B229B962B200CA7D10 /* HXPhotoEditStickerItemView.m */; };
+		5A65E62A29B962B300CA7D10 /* HXPhotoEditGraffitiColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E5B429B962B200CA7D10 /* HXPhotoEditGraffitiColorView.m */; };
+		5A65E62B29B962B300CA7D10 /* HXPhotoEditGridLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E5B529B962B200CA7D10 /* HXPhotoEditGridLayer.m */; };
+		5A65E62C29B962B300CA7D10 /* HXPhotoEditTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E5B729B962B200CA7D10 /* HXPhotoEditTextView.m */; };
+		5A65E62D29B962B300CA7D10 /* HXPhotoEdit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E5BC29B962B200CA7D10 /* HXPhotoEdit.m */; };
+		5A65E62E29B962B300CA7D10 /* DataPropertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A65E5C329B962B200CA7D10 /* DataPropertyList.plist */; };
+		5A65E62F29B962B300CA7D10 /* XLCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E5C429B962B200CA7D10 /* XLCardCell.m */; };
+		5A65E63029B962B300CA7D10 /* XLCardSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E5C629B962B200CA7D10 /* XLCardSwitch.m */; };
+		5A65E63129B962B300CA7D10 /* XLCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E5CA29B962B200CA7D10 /* XLCardModel.m */; };
+		5A65E63229B962B300CA7D10 /* XLCardSwitchFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A65E5CB29B962B200CA7D10 /* XLCardSwitchFlowLayout.m */; };
 		962A9D8907500C2E187B9456 /* libPods-BaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F8EB9A654D35CC2C00E6B2 /* libPods-BaseProject.a */; };
 /* End PBXBuildFile section */
 
@@ -77,39 +164,7 @@
 		03668177222E104400C1741C /* BaseProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0366817B222E104400C1741C /* BaseProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseProjectUITests.m; sourceTree = "<group>"; };
 		0366817D222E104400C1741C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0366819C222E119600C1741C /* PPNetworkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPNetworkHelper.m; sourceTree = "<group>"; };
-		0366819D222E119600C1741C /* UserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaults.m; sourceTree = "<group>"; };
-		0366819E222E119600C1741C /* BadgeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadgeButton.h; sourceTree = "<group>"; };
-		0366819F222E119600C1741C /* WebShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebShareView.m; sourceTree = "<group>"; };
-		036681A1222E119600C1741C /* UIColor+ColorHexadecimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorHexadecimal.h"; sourceTree = "<group>"; };
-		036681A3222E119600C1741C /* LXWaveProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXWaveProgressView.h; sourceTree = "<group>"; };
-		036681A4222E119600C1741C /* LXWaveProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXWaveProgressView.m; sourceTree = "<group>"; };
-		036681A5222E119600C1741C /* HYPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPageView.m; sourceTree = "<group>"; };
-		036681A6222E119600C1741C /* UIImage+GradientColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GradientColor.m"; sourceTree = "<group>"; };
-		036681A7222E119600C1741C /* PPNetworkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPNetworkCache.h; sourceTree = "<group>"; };
-		036681A8222E119600C1741C /* GuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideView.h; sourceTree = "<group>"; };
-		036681A9222E119600C1741C /* customActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customActivity.m; sourceTree = "<group>"; };
-		036681AA222E119600C1741C /* UserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaults.h; sourceTree = "<group>"; };
-		036681AB222E119600C1741C /* PPNetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPNetworkHelper.h; sourceTree = "<group>"; };
-		036681AC222E119600C1741C /* WebShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebShareView.h; sourceTree = "<group>"; };
-		036681AE222E119700C1741C /* BadgeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadgeButton.m; sourceTree = "<group>"; };
-		036681AF222E119700C1741C /* UIColor+ColorHexadecimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorHexadecimal.m"; sourceTree = "<group>"; };
-		036681B0222E119700C1741C /* customActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customActivity.h; sourceTree = "<group>"; };
-		036681B1222E119700C1741C /* GuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideView.m; sourceTree = "<group>"; };
-		036681B2222E119700C1741C /* PPNetworkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPNetworkCache.m; sourceTree = "<group>"; };
-		036681B3222E119700C1741C /* UIImage+GradientColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GradientColor.h"; sourceTree = "<group>"; };
-		036681B4222E119700C1741C /* HYPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPageView.h; sourceTree = "<group>"; };
 		036681B6222E119700C1741C /* BaseViewController+LoginAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseViewController+LoginAction.m"; sourceTree = "<group>"; };
-		036681B8222E119700C1741C /* WebNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebNavigationViewController.h; sourceTree = "<group>"; };
-		036681B9222E119700C1741C /* RootWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootWebViewController.h; sourceTree = "<group>"; };
-		036681BA222E119700C1741C /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
-		036681BC222E119700C1741C /* WebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewProgress.m; sourceTree = "<group>"; };
-		036681BD222E119700C1741C /* WebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewProgressView.m; sourceTree = "<group>"; };
-		036681BE222E119700C1741C /* WebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewProgress.h; sourceTree = "<group>"; };
-		036681BF222E119700C1741C /* WebViewProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewProgressView.h; sourceTree = "<group>"; };
-		036681C0222E119700C1741C /* RootWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootWebViewController.m; sourceTree = "<group>"; };
-		036681C1222E119700C1741C /* WebNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebNavigationViewController.m; sourceTree = "<group>"; };
-		036681C2222E119700C1741C /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		036681C3222E119700C1741C /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		036681C5222E119700C1741C /* BaseNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavgationController.m; sourceTree = "<group>"; };
 		036681C6222E119700C1741C /* BaseNavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavgationController.h; sourceTree = "<group>"; };
@@ -128,6 +183,214 @@
 		036681EC222E13BA00C1741C /* ThirdItemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdItemViewController.m; sourceTree = "<group>"; };
 		036681EE222E13C700C1741C /* FourthItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourthItemViewController.h; sourceTree = "<group>"; };
 		036681EF222E13C700C1741C /* FourthItemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourthItemViewController.m; sourceTree = "<group>"; };
+		5A65E4F029B962B200CA7D10 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		5A65E4F129B962B200CA7D10 /* UITextField+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Placeholder.m"; sourceTree = "<group>"; };
+		5A65E4F229B962B200CA7D10 /* StoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreDataHelper.h; sourceTree = "<group>"; };
+		5A65E4F329B962B200CA7D10 /* UIView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerRadius.m"; sourceTree = "<group>"; };
+		5A65E4F429B962B200CA7D10 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		5A65E4F529B962B200CA7D10 /* UIImage+Cache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Cache.m"; sourceTree = "<group>"; };
+		5A65E4F629B962B200CA7D10 /* UITextField+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Placeholder.h"; sourceTree = "<group>"; };
+		5A65E4F729B962B200CA7D10 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		5A65E4F829B962B200CA7D10 /* StoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreDataHelper.m; sourceTree = "<group>"; };
+		5A65E4FA29B962B200CA7D10 /* HXPhotoConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoConfiguration.m; sourceTree = "<group>"; };
+		5A65E4FC29B962B200CA7D10 /* HXPhotoViewTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoViewTransition.h; sourceTree = "<group>"; };
+		5A65E4FD29B962B200CA7D10 /* HXPhotoEditTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditTransition.m; sourceTree = "<group>"; };
+		5A65E4FE29B962B200CA7D10 /* HXPhotoInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoInteractiveTransition.m; sourceTree = "<group>"; };
+		5A65E4FF29B962B200CA7D10 /* HXPhotoViewPresentTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoViewPresentTransition.m; sourceTree = "<group>"; };
+		5A65E50029B962B200CA7D10 /* HXPhotoPersentInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoPersentInteractiveTransition.m; sourceTree = "<group>"; };
+		5A65E50129B962B200CA7D10 /* HXPhotoEditTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditTransition.h; sourceTree = "<group>"; };
+		5A65E50229B962B200CA7D10 /* HXPhotoViewTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoViewTransition.m; sourceTree = "<group>"; };
+		5A65E50329B962B200CA7D10 /* HXPhotoInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoInteractiveTransition.h; sourceTree = "<group>"; };
+		5A65E50429B962B200CA7D10 /* HXPhotoViewPresentTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoViewPresentTransition.h; sourceTree = "<group>"; };
+		5A65E50529B962B200CA7D10 /* HXPhotoPersentInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoPersentInteractiveTransition.h; sourceTree = "<group>"; };
+		5A65E50729B962B200CA7D10 /* NSString+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HXExtension.m"; sourceTree = "<group>"; };
+		5A65E50829B962B200CA7D10 /* UIViewController+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HXExtension.m"; sourceTree = "<group>"; };
+		5A65E50929B962B200CA7D10 /* NSArray+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HXExtension.m"; sourceTree = "<group>"; };
+		5A65E50A29B962B200CA7D10 /* NSBundle+HXPhotoPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+HXPhotoPicker.m"; sourceTree = "<group>"; };
+		5A65E50B29B962B200CA7D10 /* NSTimer+HXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+HXExtension.h"; sourceTree = "<group>"; };
+		5A65E50C29B962B200CA7D10 /* PHAsset+HXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHAsset+HXExtension.h"; sourceTree = "<group>"; };
+		5A65E50D29B962B200CA7D10 /* UIColor+HXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HXExtension.h"; sourceTree = "<group>"; };
+		5A65E50E29B962B200CA7D10 /* NSDate+HXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+HXExtension.h"; sourceTree = "<group>"; };
+		5A65E50F29B962B200CA7D10 /* UIImage+HXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HXExtension.h"; sourceTree = "<group>"; };
+		5A65E51029B962B200CA7D10 /* UIImageView+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HXExtension.m"; sourceTree = "<group>"; };
+		5A65E51129B962B200CA7D10 /* UILabel+HXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+HXExtension.h"; sourceTree = "<group>"; };
+		5A65E51229B962B200CA7D10 /* UIFont+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+HXExtension.m"; sourceTree = "<group>"; };
+		5A65E51329B962B200CA7D10 /* UIButton+HXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HXExtension.h"; sourceTree = "<group>"; };
+		5A65E51429B962B200CA7D10 /* UIView+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HXExtension.m"; sourceTree = "<group>"; };
+		5A65E51529B962B200CA7D10 /* NSArray+HXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HXExtension.h"; sourceTree = "<group>"; };
+		5A65E51629B962B200CA7D10 /* UIViewController+HXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HXExtension.h"; sourceTree = "<group>"; };
+		5A65E51729B962B200CA7D10 /* NSString+HXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HXExtension.h"; sourceTree = "<group>"; };
+		5A65E51829B962B200CA7D10 /* UIImage+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HXExtension.m"; sourceTree = "<group>"; };
+		5A65E51929B962B200CA7D10 /* PHAsset+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PHAsset+HXExtension.m"; sourceTree = "<group>"; };
+		5A65E51A29B962B200CA7D10 /* NSDate+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+HXExtension.m"; sourceTree = "<group>"; };
+		5A65E51B29B962B200CA7D10 /* UIColor+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HXExtension.m"; sourceTree = "<group>"; };
+		5A65E51C29B962B200CA7D10 /* NSTimer+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+HXExtension.m"; sourceTree = "<group>"; };
+		5A65E51D29B962B200CA7D10 /* NSBundle+HXPhotoPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+HXPhotoPicker.h"; sourceTree = "<group>"; };
+		5A65E51E29B962B200CA7D10 /* UIView+HXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HXExtension.h"; sourceTree = "<group>"; };
+		5A65E51F29B962B200CA7D10 /* UIButton+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HXExtension.m"; sourceTree = "<group>"; };
+		5A65E52029B962B200CA7D10 /* UIFont+HXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+HXExtension.h"; sourceTree = "<group>"; };
+		5A65E52129B962B200CA7D10 /* UIImageView+HXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HXExtension.h"; sourceTree = "<group>"; };
+		5A65E52229B962B200CA7D10 /* UILabel+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+HXExtension.m"; sourceTree = "<group>"; };
+		5A65E52329B962B200CA7D10 /* HXPhotoCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoCommon.m; sourceTree = "<group>"; };
+		5A65E52429B962B200CA7D10 /* HXPhotoTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoTypes.h; sourceTree = "<group>"; };
+		5A65E52629B962B200CA7D10 /* HXPhotoPicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HXPhotoPicker.bundle; sourceTree = "<group>"; };
+		5A65E52729B962B200CA7D10 /* HXAssetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXAssetManager.m; sourceTree = "<group>"; };
+		5A65E52829B962B200CA7D10 /* HXPhotoTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoTools.m; sourceTree = "<group>"; };
+		5A65E52929B962B200CA7D10 /* EventListHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventListHeadView.xib; sourceTree = "<group>"; };
+		5A65E52A29B962B200CA7D10 /* HXPhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoManager.m; sourceTree = "<group>"; };
+		5A65E52B29B962B200CA7D10 /* HXPhotoDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoDefine.h; sourceTree = "<group>"; };
+		5A65E52D29B962B200CA7D10 /* HXCustomCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCustomCameraViewController.m; sourceTree = "<group>"; };
+		5A65E52E29B962B200CA7D10 /* HXCustomCameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCustomCameraController.h; sourceTree = "<group>"; };
+		5A65E52F29B962B200CA7D10 /* HXPhoto3DTouchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhoto3DTouchViewController.m; sourceTree = "<group>"; };
+		5A65E53029B962B200CA7D10 /* HXCustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCustomNavigationController.h; sourceTree = "<group>"; };
+		5A65E53129B962B200CA7D10 /* HXAlbumListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXAlbumListViewController.m; sourceTree = "<group>"; };
+		5A65E53229B962B200CA7D10 /* HXPhotoPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoPreviewViewController.m; sourceTree = "<group>"; };
+		5A65E53329B962B200CA7D10 /* HXVideoEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXVideoEditViewController.h; sourceTree = "<group>"; };
+		5A65E53429B962B200CA7D10 /* HXPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoViewController.m; sourceTree = "<group>"; };
+		5A65E53529B962B200CA7D10 /* HXPhotoEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditViewController.h; sourceTree = "<group>"; };
+		5A65E53629B962B200CA7D10 /* HXCustomCameraController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCustomCameraController.m; sourceTree = "<group>"; };
+		5A65E53729B962B200CA7D10 /* HXCustomCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCustomCameraViewController.h; sourceTree = "<group>"; };
+		5A65E53829B962B200CA7D10 /* HXCustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCustomNavigationController.m; sourceTree = "<group>"; };
+		5A65E53929B962B200CA7D10 /* HXPhoto3DTouchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhoto3DTouchViewController.h; sourceTree = "<group>"; };
+		5A65E53A29B962B200CA7D10 /* HXPhotoPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoPreviewViewController.h; sourceTree = "<group>"; };
+		5A65E53B29B962B200CA7D10 /* HXAlbumListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXAlbumListViewController.h; sourceTree = "<group>"; };
+		5A65E53C29B962B200CA7D10 /* HXPhotoEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditViewController.m; sourceTree = "<group>"; };
+		5A65E53D29B962B200CA7D10 /* HXPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoViewController.h; sourceTree = "<group>"; };
+		5A65E53E29B962B200CA7D10 /* HXVideoEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXVideoEditViewController.m; sourceTree = "<group>"; };
+		5A65E53F29B962B200CA7D10 /* HXPhotoConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoConfiguration.h; sourceTree = "<group>"; };
+		5A65E54129B962B200CA7D10 /* HXPhotoViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoViewProtocol.h; sourceTree = "<group>"; };
+		5A65E54229B962B200CA7D10 /* HXPhotoViewCellCustomProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoViewCellCustomProtocol.h; sourceTree = "<group>"; };
+		5A65E54329B962B200CA7D10 /* HXCustomAssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCustomAssetModel.h; sourceTree = "<group>"; };
+		5A65E54429B962B200CA7D10 /* HXPhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoModel.m; sourceTree = "<group>"; };
+		5A65E54529B962B200CA7D10 /* HXAlbumModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXAlbumModel.h; sourceTree = "<group>"; };
+		5A65E54629B962B200CA7D10 /* HXPickerResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPickerResult.m; sourceTree = "<group>"; };
+		5A65E54729B962B200CA7D10 /* HXCustomAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCustomAssetModel.m; sourceTree = "<group>"; };
+		5A65E54829B962B200CA7D10 /* HXAlbumModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXAlbumModel.m; sourceTree = "<group>"; };
+		5A65E54929B962B200CA7D10 /* HXPhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoModel.h; sourceTree = "<group>"; };
+		5A65E54A29B962B200CA7D10 /* HXPickerResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPickerResult.h; sourceTree = "<group>"; };
+		5A65E54B29B962B200CA7D10 /* HXPhotoPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoPicker.h; sourceTree = "<group>"; };
+		5A65E54D29B962B200CA7D10 /* HXPhotoPreviewBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoPreviewBottomView.m; sourceTree = "<group>"; };
+		5A65E54E29B962B200CA7D10 /* HXPreviewLivePhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPreviewLivePhotoView.h; sourceTree = "<group>"; };
+		5A65E54F29B962B200CA7D10 /* HXPhotoPreviewLivePhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoPreviewLivePhotoCell.m; sourceTree = "<group>"; };
+		5A65E55029B962B200CA7D10 /* HXPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoView.h; sourceTree = "<group>"; };
+		5A65E55129B962B200CA7D10 /* HXFullScreenCameraPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXFullScreenCameraPlayView.h; sourceTree = "<group>"; };
+		5A65E55229B962B200CA7D10 /* HXCustomCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCustomCollectionReusableView.h; sourceTree = "<group>"; };
+		5A65E55329B962B200CA7D10 /* HXCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCollectionView.m; sourceTree = "<group>"; };
+		5A65E55429B962B200CA7D10 /* HXCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCircleProgressView.h; sourceTree = "<group>"; };
+		5A65E55529B962B200CA7D10 /* HXPreviewVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPreviewVideoView.h; sourceTree = "<group>"; };
+		5A65E55629B962B200CA7D10 /* HXAlbumlistView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXAlbumlistView.h; sourceTree = "<group>"; };
+		5A65E55729B962B200CA7D10 /* HXCustomPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCustomPreviewView.h; sourceTree = "<group>"; };
+		5A65E55829B962B200CA7D10 /* HXCameraBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCameraBottomView.m; sourceTree = "<group>"; };
+		5A65E55929B962B200CA7D10 /* HXPhotoPreviewVideoViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoPreviewVideoViewCell.m; sourceTree = "<group>"; };
+		5A65E55A29B962B200CA7D10 /* HXPhotoCustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoCustomNavigationBar.m; sourceTree = "<group>"; };
+		5A65E55B29B962B200CA7D10 /* HXPhotoBottomSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoBottomSelectView.m; sourceTree = "<group>"; };
+		5A65E55C29B962B200CA7D10 /* HXPhotoSubViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoSubViewCell.h; sourceTree = "<group>"; };
+		5A65E55D29B962B200CA7D10 /* HXPhotoPreviewImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoPreviewImageViewCell.h; sourceTree = "<group>"; };
+		5A65E55E29B962B200CA7D10 /* HXPreviewImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPreviewImageView.m; sourceTree = "<group>"; };
+		5A65E55F29B962B200CA7D10 /* HXPreviewContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPreviewContentView.m; sourceTree = "<group>"; };
+		5A65E56029B962B200CA7D10 /* HXPhotoViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoViewFlowLayout.m; sourceTree = "<group>"; };
+		5A65E56129B962B200CA7D10 /* HXPhotoLimitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoLimitView.m; sourceTree = "<group>"; };
+		5A65E56229B962B200CA7D10 /* HXPhotoPreviewViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoPreviewViewCell.h; sourceTree = "<group>"; };
+		5A65E56329B962B200CA7D10 /* HXPhotoPreviewLivePhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoPreviewLivePhotoCell.h; sourceTree = "<group>"; };
+		5A65E56429B962B200CA7D10 /* HXPreviewLivePhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPreviewLivePhotoView.m; sourceTree = "<group>"; };
+		5A65E56529B962B200CA7D10 /* HXPhotoPreviewBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoPreviewBottomView.h; sourceTree = "<group>"; };
+		5A65E56629B962B200CA7D10 /* HXCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCollectionView.h; sourceTree = "<group>"; };
+		5A65E56729B962B200CA7D10 /* HXCustomCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCustomCollectionReusableView.m; sourceTree = "<group>"; };
+		5A65E56829B962B200CA7D10 /* HXPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoView.m; sourceTree = "<group>"; };
+		5A65E56929B962B200CA7D10 /* HXFullScreenCameraPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXFullScreenCameraPlayView.m; sourceTree = "<group>"; };
+		5A65E56A29B962B200CA7D10 /* HXPhotoSubViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoSubViewCell.m; sourceTree = "<group>"; };
+		5A65E56B29B962B200CA7D10 /* HXPhotoBottomSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoBottomSelectView.h; sourceTree = "<group>"; };
+		5A65E56C29B962B200CA7D10 /* HXPhotoCustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoCustomNavigationBar.h; sourceTree = "<group>"; };
+		5A65E56D29B962B200CA7D10 /* HXCameraBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCameraBottomView.h; sourceTree = "<group>"; };
+		5A65E56E29B962B200CA7D10 /* HXPhotoPreviewVideoViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoPreviewVideoViewCell.h; sourceTree = "<group>"; };
+		5A65E56F29B962B200CA7D10 /* HXAlbumlistView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXAlbumlistView.m; sourceTree = "<group>"; };
+		5A65E57029B962B200CA7D10 /* HXCustomPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCustomPreviewView.m; sourceTree = "<group>"; };
+		5A65E57129B962B200CA7D10 /* HXPreviewVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPreviewVideoView.m; sourceTree = "<group>"; };
+		5A65E57229B962B200CA7D10 /* HXCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCircleProgressView.m; sourceTree = "<group>"; };
+		5A65E57329B962B200CA7D10 /* HXPhotoPreviewViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoPreviewViewCell.m; sourceTree = "<group>"; };
+		5A65E57429B962B200CA7D10 /* HXPhotoLimitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoLimitView.h; sourceTree = "<group>"; };
+		5A65E57529B962B200CA7D10 /* HXPreviewContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPreviewContentView.h; sourceTree = "<group>"; };
+		5A65E57629B962B200CA7D10 /* HXPhotoViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoViewFlowLayout.h; sourceTree = "<group>"; };
+		5A65E57729B962B200CA7D10 /* HXPreviewImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPreviewImageView.h; sourceTree = "<group>"; };
+		5A65E57829B962B200CA7D10 /* HXPhotoPreviewImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoPreviewImageViewCell.m; sourceTree = "<group>"; };
+		5A65E57929B962B200CA7D10 /* HXPhotoTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoTools.h; sourceTree = "<group>"; };
+		5A65E57A29B962B200CA7D10 /* HXAssetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXAssetManager.h; sourceTree = "<group>"; };
+		5A65E57C29B962B200CA7D10 /* HXPhotoEditConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditConfiguration.m; sourceTree = "<group>"; };
+		5A65E57D29B962B200CA7D10 /* HXPhotoEdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEdit.h; sourceTree = "<group>"; };
+		5A65E57F29B962B200CA7D10 /* HX_PhotoEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HX_PhotoEditViewController.h; sourceTree = "<group>"; };
+		5A65E58029B962B200CA7D10 /* HX_PhotoEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HX_PhotoEditViewController.m; sourceTree = "<group>"; };
+		5A65E58129B962B200CA7D10 /* HXPhotoEditConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditConfiguration.h; sourceTree = "<group>"; };
+		5A65E58329B962B200CA7D10 /* HXMECancelBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXMECancelBlock.h; sourceTree = "<group>"; };
+		5A65E58429B962B200CA7D10 /* HXPhotoEditGraffitiColorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditGraffitiColorModel.h; sourceTree = "<group>"; };
+		5A65E58529B962B200CA7D10 /* HXPhotoEditChartletModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditChartletModel.m; sourceTree = "<group>"; };
+		5A65E58629B962B200CA7D10 /* HXMECancelBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXMECancelBlock.m; sourceTree = "<group>"; };
+		5A65E58729B962B200CA7D10 /* HXPhotoEditGraffitiColorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditGraffitiColorModel.m; sourceTree = "<group>"; };
+		5A65E58829B962B200CA7D10 /* HXPhotoEditChartletModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditChartletModel.h; sourceTree = "<group>"; };
+		5A65E58A29B962B200CA7D10 /* HXPhotoEditResizeControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditResizeControl.m; sourceTree = "<group>"; };
+		5A65E58B29B962B200CA7D10 /* HXPhotoClippingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoClippingView.m; sourceTree = "<group>"; };
+		5A65E58C29B962B200CA7D10 /* HXPhotoEditChartletListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditChartletListView.h; sourceTree = "<group>"; };
+		5A65E58D29B962B200CA7D10 /* HXPhotoEditStickerTrashView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditStickerTrashView.m; sourceTree = "<group>"; };
+		5A65E58E29B962B200CA7D10 /* HXPhotoEditGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditGridView.h; sourceTree = "<group>"; };
+		5A65E58F29B962B200CA7D10 /* HXPhotoEditImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditImageView.m; sourceTree = "<group>"; };
+		5A65E59029B962B200CA7D10 /* HXPhotoEditSplashView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditSplashView.m; sourceTree = "<group>"; };
+		5A65E59129B962B200CA7D10 /* HXPhotoEditChartletPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditChartletPreviewView.h; sourceTree = "<group>"; };
+		5A65E59229B962B200CA7D10 /* HXPhotoEditStickerItemContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditStickerItemContentView.h; sourceTree = "<group>"; };
+		5A65E59329B962B200CA7D10 /* HXPhotoEditDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditDrawView.h; sourceTree = "<group>"; };
+		5A65E59429B962B200CA7D10 /* HXPhotoEditClippingToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditClippingToolBar.m; sourceTree = "<group>"; };
+		5A65E59529B962B200CA7D10 /* HXPhotoEditGraffitiColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditGraffitiColorView.h; sourceTree = "<group>"; };
+		5A65E59629B962B200CA7D10 /* HX_PhotoEditBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HX_PhotoEditBottomView.m; sourceTree = "<group>"; };
+		5A65E59729B962B200CA7D10 /* HXPhotoEditGridMaskLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditGridMaskLayer.m; sourceTree = "<group>"; };
+		5A65E59829B962B200CA7D10 /* HXPhotoEditGraffitiColorViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditGraffitiColorViewCell.h; sourceTree = "<group>"; };
+		5A65E59929B962B200CA7D10 /* HXPhotoEditStickerItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditStickerItemView.h; sourceTree = "<group>"; };
+		5A65E59A29B962B200CA7D10 /* HXPhotoEditStickerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditStickerItem.m; sourceTree = "<group>"; };
+		5A65E59B29B962B200CA7D10 /* HXPhotoEditMosaicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditMosaicView.h; sourceTree = "<group>"; };
+		5A65E59C29B962B200CA7D10 /* HXPhotoEditGraffitiColorSizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditGraffitiColorSizeView.m; sourceTree = "<group>"; };
+		5A65E59D29B962B200CA7D10 /* HXPhotoEditStickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditStickerView.m; sourceTree = "<group>"; };
+		5A65E59E29B962B200CA7D10 /* HXPhotoEditChartletContentViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditChartletContentViewCell.m; sourceTree = "<group>"; };
+		5A65E59F29B962B200CA7D10 /* HXPhotoEditingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditingView.m; sourceTree = "<group>"; };
+		5A65E5A029B962B200CA7D10 /* HXPhotoEditTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditTextView.h; sourceTree = "<group>"; };
+		5A65E5A129B962B200CA7D10 /* HXPhotoEditSplashMaskLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditSplashMaskLayer.m; sourceTree = "<group>"; };
+		5A65E5A229B962B200CA7D10 /* HXPhotoEditGridLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditGridLayer.h; sourceTree = "<group>"; };
+		5A65E5A329B962B200CA7D10 /* HXPhotoEditStickerTrashView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditStickerTrashView.h; sourceTree = "<group>"; };
+		5A65E5A429B962B200CA7D10 /* HXPhotoEditChartletListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditChartletListView.m; sourceTree = "<group>"; };
+		5A65E5A529B962B200CA7D10 /* HXPhotoEditResizeControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditResizeControl.h; sourceTree = "<group>"; };
+		5A65E5A629B962B200CA7D10 /* HXPhotoClippingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoClippingView.h; sourceTree = "<group>"; };
+		5A65E5A729B962B200CA7D10 /* HXPhotoEditClippingToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditClippingToolBar.h; sourceTree = "<group>"; };
+		5A65E5A829B962B200CA7D10 /* HXPhotoEditDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditDrawView.m; sourceTree = "<group>"; };
+		5A65E5A929B962B200CA7D10 /* HXPhotoEditStickerItemContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditStickerItemContentView.m; sourceTree = "<group>"; };
+		5A65E5AA29B962B200CA7D10 /* HXPhotoEditChartletPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditChartletPreviewView.m; sourceTree = "<group>"; };
+		5A65E5AB29B962B200CA7D10 /* HXPhotoEditSplashView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditSplashView.h; sourceTree = "<group>"; };
+		5A65E5AC29B962B200CA7D10 /* HXPhotoEditImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditImageView.h; sourceTree = "<group>"; };
+		5A65E5AD29B962B200CA7D10 /* HXPhotoEditGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditGridView.m; sourceTree = "<group>"; };
+		5A65E5AE29B962B200CA7D10 /* HXPhotoEditMosaicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditMosaicView.m; sourceTree = "<group>"; };
+		5A65E5AF29B962B200CA7D10 /* HXPhotoEditStickerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditStickerItem.h; sourceTree = "<group>"; };
+		5A65E5B029B962B200CA7D10 /* HXPhotoEditGraffitiColorViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditGraffitiColorViewCell.m; sourceTree = "<group>"; };
+		5A65E5B129B962B200CA7D10 /* HXPhotoEditGridMaskLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditGridMaskLayer.h; sourceTree = "<group>"; };
+		5A65E5B229B962B200CA7D10 /* HXPhotoEditStickerItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditStickerItemView.m; sourceTree = "<group>"; };
+		5A65E5B329B962B200CA7D10 /* HX_PhotoEditBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HX_PhotoEditBottomView.h; sourceTree = "<group>"; };
+		5A65E5B429B962B200CA7D10 /* HXPhotoEditGraffitiColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditGraffitiColorView.m; sourceTree = "<group>"; };
+		5A65E5B529B962B200CA7D10 /* HXPhotoEditGridLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditGridLayer.m; sourceTree = "<group>"; };
+		5A65E5B629B962B200CA7D10 /* HXPhotoEditSplashMaskLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditSplashMaskLayer.h; sourceTree = "<group>"; };
+		5A65E5B729B962B200CA7D10 /* HXPhotoEditTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEditTextView.m; sourceTree = "<group>"; };
+		5A65E5B829B962B200CA7D10 /* HXPhotoEditingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditingView.h; sourceTree = "<group>"; };
+		5A65E5B929B962B200CA7D10 /* HXPhotoEditChartletContentViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditChartletContentViewCell.h; sourceTree = "<group>"; };
+		5A65E5BA29B962B200CA7D10 /* HXPhotoEditStickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditStickerView.h; sourceTree = "<group>"; };
+		5A65E5BB29B962B200CA7D10 /* HXPhotoEditGraffitiColorSizeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoEditGraffitiColorSizeView.h; sourceTree = "<group>"; };
+		5A65E5BC29B962B200CA7D10 /* HXPhotoEdit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoEdit.m; sourceTree = "<group>"; };
+		5A65E5BD29B962B200CA7D10 /* HXPhotoCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoCommon.h; sourceTree = "<group>"; };
+		5A65E5BE29B962B200CA7D10 /* HXPhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoManager.h; sourceTree = "<group>"; };
+		5A65E5BF29B962B200CA7D10 /* UIImage+Cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Cache.h"; sourceTree = "<group>"; };
+		5A65E5C029B962B200CA7D10 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		5A65E5C129B962B200CA7D10 /* UIView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerRadius.h"; sourceTree = "<group>"; };
+		5A65E5C329B962B200CA7D10 /* DataPropertyList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DataPropertyList.plist; sourceTree = "<group>"; };
+		5A65E5C429B962B200CA7D10 /* XLCardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLCardCell.m; sourceTree = "<group>"; };
+		5A65E5C529B962B200CA7D10 /* XLCardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLCardModel.h; sourceTree = "<group>"; };
+		5A65E5C629B962B200CA7D10 /* XLCardSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLCardSwitch.m; sourceTree = "<group>"; };
+		5A65E5C729B962B200CA7D10 /* XLCardSwitchFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLCardSwitchFlowLayout.h; sourceTree = "<group>"; };
+		5A65E5C829B962B200CA7D10 /* XLCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLCardCell.h; sourceTree = "<group>"; };
+		5A65E5C929B962B200CA7D10 /* XLCardSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLCardSwitch.h; sourceTree = "<group>"; };
+		5A65E5CA29B962B200CA7D10 /* XLCardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLCardModel.m; sourceTree = "<group>"; };
+		5A65E5CB29B962B200CA7D10 /* XLCardSwitchFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLCardSwitchFlowLayout.m; sourceTree = "<group>"; };
 		80F8EB9A654D35CC2C00E6B2 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F09D16D84217AE7009032D0D /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
 		FC9AC1EF916951249EF92EA1 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -375,45 +638,28 @@
 		0366819B222E119600C1741C /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				036681AB222E119600C1741C /* PPNetworkHelper.h */,
-				0366819C222E119600C1741C /* PPNetworkHelper.m */,
-				036681A7222E119600C1741C /* PPNetworkCache.h */,
-				036681B2222E119700C1741C /* PPNetworkCache.m */,
-				036681AA222E119600C1741C /* UserDefaults.h */,
-				0366819D222E119600C1741C /* UserDefaults.m */,
-				0366819E222E119600C1741C /* BadgeButton.h */,
-				036681AE222E119700C1741C /* BadgeButton.m */,
-				036681AC222E119600C1741C /* WebShareView.h */,
-				0366819F222E119600C1741C /* WebShareView.m */,
-				036681A1222E119600C1741C /* UIColor+ColorHexadecimal.h */,
-				036681AF222E119700C1741C /* UIColor+ColorHexadecimal.m */,
-				036681A2222E119600C1741C /* LXWaveProgressView */,
-				036681A5222E119600C1741C /* HYPageView.m */,
-				036681B3222E119700C1741C /* UIImage+GradientColor.h */,
-				036681A6222E119600C1741C /* UIImage+GradientColor.m */,
-				036681A8222E119600C1741C /* GuideView.h */,
-				036681B1222E119700C1741C /* GuideView.m */,
-				036681A9222E119600C1741C /* customActivity.m */,
-				036681B0222E119700C1741C /* customActivity.h */,
+				5A65E4F929B962B200CA7D10 /* HXPhotoPicker */,
+				5A65E4F229B962B200CA7D10 /* StoreDataHelper.h */,
+				5A65E4F829B962B200CA7D10 /* StoreDataHelper.m */,
+				5A65E4F029B962B200CA7D10 /* Tools.h */,
+				5A65E4F429B962B200CA7D10 /* Tools.m */,
+				5A65E5BF29B962B200CA7D10 /* UIImage+Cache.h */,
+				5A65E4F529B962B200CA7D10 /* UIImage+Cache.m */,
+				5A65E4F629B962B200CA7D10 /* UITextField+Placeholder.h */,
+				5A65E4F129B962B200CA7D10 /* UITextField+Placeholder.m */,
+				5A65E5C029B962B200CA7D10 /* UITextView+Placeholder.h */,
+				5A65E4F729B962B200CA7D10 /* UITextView+Placeholder.m */,
+				5A65E5C129B962B200CA7D10 /* UIView+CornerRadius.h */,
+				5A65E4F329B962B200CA7D10 /* UIView+CornerRadius.m */,
+				5A65E5C229B962B200CA7D10 /* XLCardSwitch */,
 			);
 			path = Tools;
-			sourceTree = "<group>";
-		};
-		036681A2222E119600C1741C /* LXWaveProgressView */ = {
-			isa = PBXGroup;
-			children = (
-				036681B4222E119700C1741C /* HYPageView.h */,
-				036681A3222E119600C1741C /* LXWaveProgressView.h */,
-				036681A4222E119600C1741C /* LXWaveProgressView.m */,
-			);
-			path = LXWaveProgressView;
 			sourceTree = "<group>";
 		};
 		036681B5222E119700C1741C /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
 				036681B6222E119700C1741C /* BaseViewController+LoginAction.m */,
-				036681B7222E119700C1741C /* WebViewController */,
 				036681C3222E119700C1741C /* BaseViewController.m */,
 				036681C4222E119700C1741C /* Navigaion */,
 				036681C7222E119700C1741C /* Tabbar */,
@@ -421,31 +667,6 @@
 				036681CB222E119700C1741C /* BaseViewController.h */,
 			);
 			path = BaseClass;
-			sourceTree = "<group>";
-		};
-		036681B7222E119700C1741C /* WebViewController */ = {
-			isa = PBXGroup;
-			children = (
-				036681B8222E119700C1741C /* WebNavigationViewController.h */,
-				036681B9222E119700C1741C /* RootWebViewController.h */,
-				036681BA222E119700C1741C /* WebViewController.m */,
-				036681BB222E119700C1741C /* WebViewProgress */,
-				036681C0222E119700C1741C /* RootWebViewController.m */,
-				036681C1222E119700C1741C /* WebNavigationViewController.m */,
-				036681C2222E119700C1741C /* WebViewController.h */,
-			);
-			path = WebViewController;
-			sourceTree = "<group>";
-		};
-		036681BB222E119700C1741C /* WebViewProgress */ = {
-			isa = PBXGroup;
-			children = (
-				036681BC222E119700C1741C /* WebViewProgress.m */,
-				036681BD222E119700C1741C /* WebViewProgressView.m */,
-				036681BE222E119700C1741C /* WebViewProgress.h */,
-				036681BF222E119700C1741C /* WebViewProgressView.h */,
-			);
-			path = WebViewProgress;
 			sourceTree = "<group>";
 		};
 		036681C4222E119700C1741C /* Navigaion */ = {
@@ -464,6 +685,296 @@
 				036681C9222E119700C1741C /* BaseTabbarController.m */,
 			);
 			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		5A65E4F929B962B200CA7D10 /* HXPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				5A65E4FA29B962B200CA7D10 /* HXPhotoConfiguration.m */,
+				5A65E4FB29B962B200CA7D10 /* TransitionAnimation */,
+				5A65E50629B962B200CA7D10 /* Category */,
+				5A65E52329B962B200CA7D10 /* HXPhotoCommon.m */,
+				5A65E52429B962B200CA7D10 /* HXPhotoTypes.h */,
+				5A65E52529B962B200CA7D10 /* Resources */,
+				5A65E52729B962B200CA7D10 /* HXAssetManager.m */,
+				5A65E52829B962B200CA7D10 /* HXPhotoTools.m */,
+				5A65E52929B962B200CA7D10 /* EventListHeadView.xib */,
+				5A65E52A29B962B200CA7D10 /* HXPhotoManager.m */,
+				5A65E52B29B962B200CA7D10 /* HXPhotoDefine.h */,
+				5A65E52C29B962B200CA7D10 /* Controller */,
+				5A65E53F29B962B200CA7D10 /* HXPhotoConfiguration.h */,
+				5A65E54029B962B200CA7D10 /* Model */,
+				5A65E54B29B962B200CA7D10 /* HXPhotoPicker.h */,
+				5A65E54C29B962B200CA7D10 /* View */,
+				5A65E57929B962B200CA7D10 /* HXPhotoTools.h */,
+				5A65E57A29B962B200CA7D10 /* HXAssetManager.h */,
+				5A65E57B29B962B200CA7D10 /* HXPhotoEdit */,
+				5A65E5BD29B962B200CA7D10 /* HXPhotoCommon.h */,
+				5A65E5BE29B962B200CA7D10 /* HXPhotoManager.h */,
+			);
+			path = HXPhotoPicker;
+			sourceTree = "<group>";
+		};
+		5A65E4FB29B962B200CA7D10 /* TransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				5A65E4FC29B962B200CA7D10 /* HXPhotoViewTransition.h */,
+				5A65E4FD29B962B200CA7D10 /* HXPhotoEditTransition.m */,
+				5A65E4FE29B962B200CA7D10 /* HXPhotoInteractiveTransition.m */,
+				5A65E4FF29B962B200CA7D10 /* HXPhotoViewPresentTransition.m */,
+				5A65E50029B962B200CA7D10 /* HXPhotoPersentInteractiveTransition.m */,
+				5A65E50129B962B200CA7D10 /* HXPhotoEditTransition.h */,
+				5A65E50229B962B200CA7D10 /* HXPhotoViewTransition.m */,
+				5A65E50329B962B200CA7D10 /* HXPhotoInteractiveTransition.h */,
+				5A65E50429B962B200CA7D10 /* HXPhotoViewPresentTransition.h */,
+				5A65E50529B962B200CA7D10 /* HXPhotoPersentInteractiveTransition.h */,
+			);
+			path = TransitionAnimation;
+			sourceTree = "<group>";
+		};
+		5A65E50629B962B200CA7D10 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5A65E50729B962B200CA7D10 /* NSString+HXExtension.m */,
+				5A65E50829B962B200CA7D10 /* UIViewController+HXExtension.m */,
+				5A65E50929B962B200CA7D10 /* NSArray+HXExtension.m */,
+				5A65E50A29B962B200CA7D10 /* NSBundle+HXPhotoPicker.m */,
+				5A65E50B29B962B200CA7D10 /* NSTimer+HXExtension.h */,
+				5A65E50C29B962B200CA7D10 /* PHAsset+HXExtension.h */,
+				5A65E50D29B962B200CA7D10 /* UIColor+HXExtension.h */,
+				5A65E50E29B962B200CA7D10 /* NSDate+HXExtension.h */,
+				5A65E50F29B962B200CA7D10 /* UIImage+HXExtension.h */,
+				5A65E51029B962B200CA7D10 /* UIImageView+HXExtension.m */,
+				5A65E51129B962B200CA7D10 /* UILabel+HXExtension.h */,
+				5A65E51229B962B200CA7D10 /* UIFont+HXExtension.m */,
+				5A65E51329B962B200CA7D10 /* UIButton+HXExtension.h */,
+				5A65E51429B962B200CA7D10 /* UIView+HXExtension.m */,
+				5A65E51529B962B200CA7D10 /* NSArray+HXExtension.h */,
+				5A65E51629B962B200CA7D10 /* UIViewController+HXExtension.h */,
+				5A65E51729B962B200CA7D10 /* NSString+HXExtension.h */,
+				5A65E51829B962B200CA7D10 /* UIImage+HXExtension.m */,
+				5A65E51929B962B200CA7D10 /* PHAsset+HXExtension.m */,
+				5A65E51A29B962B200CA7D10 /* NSDate+HXExtension.m */,
+				5A65E51B29B962B200CA7D10 /* UIColor+HXExtension.m */,
+				5A65E51C29B962B200CA7D10 /* NSTimer+HXExtension.m */,
+				5A65E51D29B962B200CA7D10 /* NSBundle+HXPhotoPicker.h */,
+				5A65E51E29B962B200CA7D10 /* UIView+HXExtension.h */,
+				5A65E51F29B962B200CA7D10 /* UIButton+HXExtension.m */,
+				5A65E52029B962B200CA7D10 /* UIFont+HXExtension.h */,
+				5A65E52129B962B200CA7D10 /* UIImageView+HXExtension.h */,
+				5A65E52229B962B200CA7D10 /* UILabel+HXExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		5A65E52529B962B200CA7D10 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5A65E52629B962B200CA7D10 /* HXPhotoPicker.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5A65E52C29B962B200CA7D10 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A65E52D29B962B200CA7D10 /* HXCustomCameraViewController.m */,
+				5A65E52E29B962B200CA7D10 /* HXCustomCameraController.h */,
+				5A65E52F29B962B200CA7D10 /* HXPhoto3DTouchViewController.m */,
+				5A65E53029B962B200CA7D10 /* HXCustomNavigationController.h */,
+				5A65E53129B962B200CA7D10 /* HXAlbumListViewController.m */,
+				5A65E53229B962B200CA7D10 /* HXPhotoPreviewViewController.m */,
+				5A65E53329B962B200CA7D10 /* HXVideoEditViewController.h */,
+				5A65E53429B962B200CA7D10 /* HXPhotoViewController.m */,
+				5A65E53529B962B200CA7D10 /* HXPhotoEditViewController.h */,
+				5A65E53629B962B200CA7D10 /* HXCustomCameraController.m */,
+				5A65E53729B962B200CA7D10 /* HXCustomCameraViewController.h */,
+				5A65E53829B962B200CA7D10 /* HXCustomNavigationController.m */,
+				5A65E53929B962B200CA7D10 /* HXPhoto3DTouchViewController.h */,
+				5A65E53A29B962B200CA7D10 /* HXPhotoPreviewViewController.h */,
+				5A65E53B29B962B200CA7D10 /* HXAlbumListViewController.h */,
+				5A65E53C29B962B200CA7D10 /* HXPhotoEditViewController.m */,
+				5A65E53D29B962B200CA7D10 /* HXPhotoViewController.h */,
+				5A65E53E29B962B200CA7D10 /* HXVideoEditViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5A65E54029B962B200CA7D10 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A65E54129B962B200CA7D10 /* HXPhotoViewProtocol.h */,
+				5A65E54229B962B200CA7D10 /* HXPhotoViewCellCustomProtocol.h */,
+				5A65E54329B962B200CA7D10 /* HXCustomAssetModel.h */,
+				5A65E54429B962B200CA7D10 /* HXPhotoModel.m */,
+				5A65E54529B962B200CA7D10 /* HXAlbumModel.h */,
+				5A65E54629B962B200CA7D10 /* HXPickerResult.m */,
+				5A65E54729B962B200CA7D10 /* HXCustomAssetModel.m */,
+				5A65E54829B962B200CA7D10 /* HXAlbumModel.m */,
+				5A65E54929B962B200CA7D10 /* HXPhotoModel.h */,
+				5A65E54A29B962B200CA7D10 /* HXPickerResult.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5A65E54C29B962B200CA7D10 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5A65E54D29B962B200CA7D10 /* HXPhotoPreviewBottomView.m */,
+				5A65E54E29B962B200CA7D10 /* HXPreviewLivePhotoView.h */,
+				5A65E54F29B962B200CA7D10 /* HXPhotoPreviewLivePhotoCell.m */,
+				5A65E55029B962B200CA7D10 /* HXPhotoView.h */,
+				5A65E55129B962B200CA7D10 /* HXFullScreenCameraPlayView.h */,
+				5A65E55229B962B200CA7D10 /* HXCustomCollectionReusableView.h */,
+				5A65E55329B962B200CA7D10 /* HXCollectionView.m */,
+				5A65E55429B962B200CA7D10 /* HXCircleProgressView.h */,
+				5A65E55529B962B200CA7D10 /* HXPreviewVideoView.h */,
+				5A65E55629B962B200CA7D10 /* HXAlbumlistView.h */,
+				5A65E55729B962B200CA7D10 /* HXCustomPreviewView.h */,
+				5A65E55829B962B200CA7D10 /* HXCameraBottomView.m */,
+				5A65E55929B962B200CA7D10 /* HXPhotoPreviewVideoViewCell.m */,
+				5A65E55A29B962B200CA7D10 /* HXPhotoCustomNavigationBar.m */,
+				5A65E55B29B962B200CA7D10 /* HXPhotoBottomSelectView.m */,
+				5A65E55C29B962B200CA7D10 /* HXPhotoSubViewCell.h */,
+				5A65E55D29B962B200CA7D10 /* HXPhotoPreviewImageViewCell.h */,
+				5A65E55E29B962B200CA7D10 /* HXPreviewImageView.m */,
+				5A65E55F29B962B200CA7D10 /* HXPreviewContentView.m */,
+				5A65E56029B962B200CA7D10 /* HXPhotoViewFlowLayout.m */,
+				5A65E56129B962B200CA7D10 /* HXPhotoLimitView.m */,
+				5A65E56229B962B200CA7D10 /* HXPhotoPreviewViewCell.h */,
+				5A65E56329B962B200CA7D10 /* HXPhotoPreviewLivePhotoCell.h */,
+				5A65E56429B962B200CA7D10 /* HXPreviewLivePhotoView.m */,
+				5A65E56529B962B200CA7D10 /* HXPhotoPreviewBottomView.h */,
+				5A65E56629B962B200CA7D10 /* HXCollectionView.h */,
+				5A65E56729B962B200CA7D10 /* HXCustomCollectionReusableView.m */,
+				5A65E56829B962B200CA7D10 /* HXPhotoView.m */,
+				5A65E56929B962B200CA7D10 /* HXFullScreenCameraPlayView.m */,
+				5A65E56A29B962B200CA7D10 /* HXPhotoSubViewCell.m */,
+				5A65E56B29B962B200CA7D10 /* HXPhotoBottomSelectView.h */,
+				5A65E56C29B962B200CA7D10 /* HXPhotoCustomNavigationBar.h */,
+				5A65E56D29B962B200CA7D10 /* HXCameraBottomView.h */,
+				5A65E56E29B962B200CA7D10 /* HXPhotoPreviewVideoViewCell.h */,
+				5A65E56F29B962B200CA7D10 /* HXAlbumlistView.m */,
+				5A65E57029B962B200CA7D10 /* HXCustomPreviewView.m */,
+				5A65E57129B962B200CA7D10 /* HXPreviewVideoView.m */,
+				5A65E57229B962B200CA7D10 /* HXCircleProgressView.m */,
+				5A65E57329B962B200CA7D10 /* HXPhotoPreviewViewCell.m */,
+				5A65E57429B962B200CA7D10 /* HXPhotoLimitView.h */,
+				5A65E57529B962B200CA7D10 /* HXPreviewContentView.h */,
+				5A65E57629B962B200CA7D10 /* HXPhotoViewFlowLayout.h */,
+				5A65E57729B962B200CA7D10 /* HXPreviewImageView.h */,
+				5A65E57829B962B200CA7D10 /* HXPhotoPreviewImageViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5A65E57B29B962B200CA7D10 /* HXPhotoEdit */ = {
+			isa = PBXGroup;
+			children = (
+				5A65E57C29B962B200CA7D10 /* HXPhotoEditConfiguration.m */,
+				5A65E57D29B962B200CA7D10 /* HXPhotoEdit.h */,
+				5A65E57E29B962B200CA7D10 /* Controller */,
+				5A65E58129B962B200CA7D10 /* HXPhotoEditConfiguration.h */,
+				5A65E58229B962B200CA7D10 /* Model */,
+				5A65E58929B962B200CA7D10 /* View */,
+				5A65E5BC29B962B200CA7D10 /* HXPhotoEdit.m */,
+			);
+			path = HXPhotoEdit;
+			sourceTree = "<group>";
+		};
+		5A65E57E29B962B200CA7D10 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A65E57F29B962B200CA7D10 /* HX_PhotoEditViewController.h */,
+				5A65E58029B962B200CA7D10 /* HX_PhotoEditViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5A65E58229B962B200CA7D10 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A65E58329B962B200CA7D10 /* HXMECancelBlock.h */,
+				5A65E58429B962B200CA7D10 /* HXPhotoEditGraffitiColorModel.h */,
+				5A65E58529B962B200CA7D10 /* HXPhotoEditChartletModel.m */,
+				5A65E58629B962B200CA7D10 /* HXMECancelBlock.m */,
+				5A65E58729B962B200CA7D10 /* HXPhotoEditGraffitiColorModel.m */,
+				5A65E58829B962B200CA7D10 /* HXPhotoEditChartletModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5A65E58929B962B200CA7D10 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5A65E58A29B962B200CA7D10 /* HXPhotoEditResizeControl.m */,
+				5A65E58B29B962B200CA7D10 /* HXPhotoClippingView.m */,
+				5A65E58C29B962B200CA7D10 /* HXPhotoEditChartletListView.h */,
+				5A65E58D29B962B200CA7D10 /* HXPhotoEditStickerTrashView.m */,
+				5A65E58E29B962B200CA7D10 /* HXPhotoEditGridView.h */,
+				5A65E58F29B962B200CA7D10 /* HXPhotoEditImageView.m */,
+				5A65E59029B962B200CA7D10 /* HXPhotoEditSplashView.m */,
+				5A65E59129B962B200CA7D10 /* HXPhotoEditChartletPreviewView.h */,
+				5A65E59229B962B200CA7D10 /* HXPhotoEditStickerItemContentView.h */,
+				5A65E59329B962B200CA7D10 /* HXPhotoEditDrawView.h */,
+				5A65E59429B962B200CA7D10 /* HXPhotoEditClippingToolBar.m */,
+				5A65E59529B962B200CA7D10 /* HXPhotoEditGraffitiColorView.h */,
+				5A65E59629B962B200CA7D10 /* HX_PhotoEditBottomView.m */,
+				5A65E59729B962B200CA7D10 /* HXPhotoEditGridMaskLayer.m */,
+				5A65E59829B962B200CA7D10 /* HXPhotoEditGraffitiColorViewCell.h */,
+				5A65E59929B962B200CA7D10 /* HXPhotoEditStickerItemView.h */,
+				5A65E59A29B962B200CA7D10 /* HXPhotoEditStickerItem.m */,
+				5A65E59B29B962B200CA7D10 /* HXPhotoEditMosaicView.h */,
+				5A65E59C29B962B200CA7D10 /* HXPhotoEditGraffitiColorSizeView.m */,
+				5A65E59D29B962B200CA7D10 /* HXPhotoEditStickerView.m */,
+				5A65E59E29B962B200CA7D10 /* HXPhotoEditChartletContentViewCell.m */,
+				5A65E59F29B962B200CA7D10 /* HXPhotoEditingView.m */,
+				5A65E5A029B962B200CA7D10 /* HXPhotoEditTextView.h */,
+				5A65E5A129B962B200CA7D10 /* HXPhotoEditSplashMaskLayer.m */,
+				5A65E5A229B962B200CA7D10 /* HXPhotoEditGridLayer.h */,
+				5A65E5A329B962B200CA7D10 /* HXPhotoEditStickerTrashView.h */,
+				5A65E5A429B962B200CA7D10 /* HXPhotoEditChartletListView.m */,
+				5A65E5A529B962B200CA7D10 /* HXPhotoEditResizeControl.h */,
+				5A65E5A629B962B200CA7D10 /* HXPhotoClippingView.h */,
+				5A65E5A729B962B200CA7D10 /* HXPhotoEditClippingToolBar.h */,
+				5A65E5A829B962B200CA7D10 /* HXPhotoEditDrawView.m */,
+				5A65E5A929B962B200CA7D10 /* HXPhotoEditStickerItemContentView.m */,
+				5A65E5AA29B962B200CA7D10 /* HXPhotoEditChartletPreviewView.m */,
+				5A65E5AB29B962B200CA7D10 /* HXPhotoEditSplashView.h */,
+				5A65E5AC29B962B200CA7D10 /* HXPhotoEditImageView.h */,
+				5A65E5AD29B962B200CA7D10 /* HXPhotoEditGridView.m */,
+				5A65E5AE29B962B200CA7D10 /* HXPhotoEditMosaicView.m */,
+				5A65E5AF29B962B200CA7D10 /* HXPhotoEditStickerItem.h */,
+				5A65E5B029B962B200CA7D10 /* HXPhotoEditGraffitiColorViewCell.m */,
+				5A65E5B129B962B200CA7D10 /* HXPhotoEditGridMaskLayer.h */,
+				5A65E5B229B962B200CA7D10 /* HXPhotoEditStickerItemView.m */,
+				5A65E5B329B962B200CA7D10 /* HX_PhotoEditBottomView.h */,
+				5A65E5B429B962B200CA7D10 /* HXPhotoEditGraffitiColorView.m */,
+				5A65E5B529B962B200CA7D10 /* HXPhotoEditGridLayer.m */,
+				5A65E5B629B962B200CA7D10 /* HXPhotoEditSplashMaskLayer.h */,
+				5A65E5B729B962B200CA7D10 /* HXPhotoEditTextView.m */,
+				5A65E5B829B962B200CA7D10 /* HXPhotoEditingView.h */,
+				5A65E5B929B962B200CA7D10 /* HXPhotoEditChartletContentViewCell.h */,
+				5A65E5BA29B962B200CA7D10 /* HXPhotoEditStickerView.h */,
+				5A65E5BB29B962B200CA7D10 /* HXPhotoEditGraffitiColorSizeView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5A65E5C229B962B200CA7D10 /* XLCardSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				5A65E5C329B962B200CA7D10 /* DataPropertyList.plist */,
+				5A65E5C429B962B200CA7D10 /* XLCardCell.m */,
+				5A65E5C529B962B200CA7D10 /* XLCardModel.h */,
+				5A65E5C629B962B200CA7D10 /* XLCardSwitch.m */,
+				5A65E5C729B962B200CA7D10 /* XLCardSwitchFlowLayout.h */,
+				5A65E5C829B962B200CA7D10 /* XLCardCell.h */,
+				5A65E5C929B962B200CA7D10 /* XLCardSwitch.h */,
+				5A65E5CA29B962B200CA7D10 /* XLCardModel.m */,
+				5A65E5CB29B962B200CA7D10 /* XLCardSwitchFlowLayout.m */,
+			);
+			path = XLCardSwitch;
 			sourceTree = "<group>";
 		};
 		ED4C78D99085C241636C5236 /* Pods */ = {
@@ -588,7 +1099,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A65E5E729B962B300CA7D10 /* HXPhotoPicker.bundle in Resources */,
+				5A65E62E29B962B300CA7D10 /* DataPropertyList.plist in Resources */,
 				03668164222E104400C1741C /* LaunchScreen.storyboard in Resources */,
+				5A65E5EA29B962B300CA7D10 /* EventListHeadView.xib in Resources */,
 				03668161222E104400C1741C /* Assets.xcassets in Resources */,
 				0366815F222E104300C1741C /* Main.storyboard in Resources */,
 			);
@@ -616,19 +1130,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject-resources.sh",
-				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
-				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BaseProject/Pods-BaseProject-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BaseProject/Pods-BaseProject-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BaseProject/Pods-BaseProject-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E79CBE384CEB85A4953EDAE5 /* [CP] Check Pods Manifest.lock */ = {
@@ -656,34 +1167,118 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				036681D0222E119700C1741C /* HYPageView.m in Sources */,
-				036681D5222E119700C1741C /* UIColor+ColorHexadecimal.m in Sources */,
+				5A65E63229B962B300CA7D10 /* XLCardSwitchFlowLayout.m in Sources */,
+				5A65E5D629B962B200CA7D10 /* HXPhotoPersentInteractiveTransition.m in Sources */,
+				5A65E5F529B962B300CA7D10 /* HXPhotoModel.m in Sources */,
+				5A65E5E429B962B300CA7D10 /* UIButton+HXExtension.m in Sources */,
+				5A65E5F729B962B300CA7D10 /* HXCustomAssetModel.m in Sources */,
+				5A65E60729B962B300CA7D10 /* HXFullScreenCameraPlayView.m in Sources */,
 				0366815C222E104300C1741C /* ViewController.m in Sources */,
-				036681CE222E119700C1741C /* WebShareView.m in Sources */,
 				036681E0222E119700C1741C /* BaseTabbarController.m in Sources */,
-				036681DD222E119700C1741C /* WebNavigationViewController.m in Sources */,
-				036681CD222E119700C1741C /* UserDefaults.m in Sources */,
+				5A65E61C29B962B300CA7D10 /* HXPhotoEditStickerItem.m in Sources */,
+				5A65E60D29B962B300CA7D10 /* HXPhotoPreviewViewCell.m in Sources */,
+				5A65E5E529B962B300CA7D10 /* UILabel+HXExtension.m in Sources */,
+				5A65E5FA29B962B300CA7D10 /* HXPhotoPreviewLivePhotoCell.m in Sources */,
+				5A65E62029B962B300CA7D10 /* HXPhotoEditingView.m in Sources */,
+				5A65E60229B962B300CA7D10 /* HXPhotoViewFlowLayout.m in Sources */,
+				5A65E5F929B962B300CA7D10 /* HXPhotoPreviewBottomView.m in Sources */,
+				5A65E5DE29B962B300CA7D10 /* UIView+HXExtension.m in Sources */,
+				5A65E5F329B962B300CA7D10 /* HXPhotoEditViewController.m in Sources */,
+				5A65E61F29B962B300CA7D10 /* HXPhotoEditChartletContentViewCell.m in Sources */,
+				5A65E61229B962B300CA7D10 /* HXMECancelBlock.m in Sources */,
+				5A65E5DD29B962B300CA7D10 /* UIFont+HXExtension.m in Sources */,
+				5A65E5D229B962B200CA7D10 /* HXPhotoConfiguration.m in Sources */,
+				5A65E61E29B962B300CA7D10 /* HXPhotoEditStickerView.m in Sources */,
+				5A65E60B29B962B300CA7D10 /* HXPreviewVideoView.m in Sources */,
 				036681E4222E12CE00C1741C /* ProjectTabBarController.m in Sources */,
-				036681D7222E119700C1741C /* PPNetworkCache.m in Sources */,
+				5A65E5EE29B962B300CA7D10 /* HXAlbumListViewController.m in Sources */,
+				5A65E5CF29B962B200CA7D10 /* UIImage+Cache.m in Sources */,
+				5A65E63029B962B300CA7D10 /* XLCardSwitch.m in Sources */,
+				5A65E5D329B962B200CA7D10 /* HXPhotoEditTransition.m in Sources */,
+				5A65E5E029B962B300CA7D10 /* PHAsset+HXExtension.m in Sources */,
 				03668167222E104400C1741C /* main.m in Sources */,
-				036681D2222E119700C1741C /* customActivity.m in Sources */,
-				036681DA222E119700C1741C /* WebViewProgress.m in Sources */,
-				036681D9222E119700C1741C /* WebViewController.m in Sources */,
+				5A65E60A29B962B300CA7D10 /* HXCustomPreviewView.m in Sources */,
+				5A65E62229B962B300CA7D10 /* HXPhotoEditChartletListView.m in Sources */,
+				5A65E5E329B962B300CA7D10 /* NSTimer+HXExtension.m in Sources */,
+				5A65E62C29B962B300CA7D10 /* HXPhotoEditTextView.m in Sources */,
+				5A65E60929B962B300CA7D10 /* HXAlbumlistView.m in Sources */,
+				5A65E5E129B962B300CA7D10 /* NSDate+HXExtension.m in Sources */,
+				5A65E5D429B962B200CA7D10 /* HXPhotoInteractiveTransition.m in Sources */,
+				5A65E61029B962B300CA7D10 /* HX_PhotoEditViewController.m in Sources */,
+				5A65E5D729B962B200CA7D10 /* HXPhotoViewTransition.m in Sources */,
+				5A65E60E29B962B300CA7D10 /* HXPhotoPreviewImageViewCell.m in Sources */,
+				5A65E62929B962B300CA7D10 /* HXPhotoEditStickerItemView.m in Sources */,
+				5A65E61329B962B300CA7D10 /* HXPhotoEditGraffitiColorModel.m in Sources */,
+				5A65E61529B962B300CA7D10 /* HXPhotoClippingView.m in Sources */,
+				5A65E5D529B962B200CA7D10 /* HXPhotoViewPresentTransition.m in Sources */,
+				5A65E5CD29B962B200CA7D10 /* UIView+CornerRadius.m in Sources */,
+				5A65E60629B962B300CA7D10 /* HXPhotoView.m in Sources */,
+				5A65E62F29B962B300CA7D10 /* XLCardCell.m in Sources */,
+				5A65E62629B962B300CA7D10 /* HXPhotoEditGridView.m in Sources */,
+				5A65E5E629B962B300CA7D10 /* HXPhotoCommon.m in Sources */,
+				5A65E5FF29B962B300CA7D10 /* HXPhotoBottomSelectView.m in Sources */,
 				036681EA222E13AC00C1741C /* SecondItemViewController.m in Sources */,
-				036681D1222E119700C1741C /* UIImage+GradientColor.m in Sources */,
+				5A65E5E929B962B300CA7D10 /* HXPhotoTools.m in Sources */,
+				5A65E5DC29B962B300CA7D10 /* UIImageView+HXExtension.m in Sources */,
+				5A65E61129B962B300CA7D10 /* HXPhotoEditChartletModel.m in Sources */,
+				5A65E5FB29B962B300CA7D10 /* HXCollectionView.m in Sources */,
+				5A65E61B29B962B300CA7D10 /* HXPhotoEditGridMaskLayer.m in Sources */,
+				5A65E5F029B962B300CA7D10 /* HXPhotoViewController.m in Sources */,
+				5A65E5FD29B962B300CA7D10 /* HXPhotoPreviewVideoViewCell.m in Sources */,
+				5A65E62D29B962B300CA7D10 /* HXPhotoEdit.m in Sources */,
+				5A65E61429B962B300CA7D10 /* HXPhotoEditResizeControl.m in Sources */,
+				5A65E5D929B962B200CA7D10 /* UIViewController+HXExtension.m in Sources */,
+				5A65E5D129B962B200CA7D10 /* StoreDataHelper.m in Sources */,
 				036681F0222E13C700C1741C /* FourthItemViewController.m in Sources */,
+				5A65E60029B962B300CA7D10 /* HXPreviewImageView.m in Sources */,
+				5A65E62329B962B300CA7D10 /* HXPhotoEditDrawView.m in Sources */,
+				5A65E5EF29B962B300CA7D10 /* HXPhotoPreviewViewController.m in Sources */,
+				5A65E60429B962B300CA7D10 /* HXPreviewLivePhotoView.m in Sources */,
+				5A65E5DF29B962B300CA7D10 /* UIImage+HXExtension.m in Sources */,
 				036681DF222E119700C1741C /* BaseNavgationController.m in Sources */,
+				5A65E63129B962B300CA7D10 /* XLCardModel.m in Sources */,
+				5A65E5FC29B962B300CA7D10 /* HXCameraBottomView.m in Sources */,
+				5A65E5ED29B962B300CA7D10 /* HXPhoto3DTouchViewController.m in Sources */,
+				5A65E61829B962B300CA7D10 /* HXPhotoEditSplashView.m in Sources */,
+				5A65E61929B962B300CA7D10 /* HXPhotoEditClippingToolBar.m in Sources */,
+				5A65E5E829B962B300CA7D10 /* HXAssetManager.m in Sources */,
+				5A65E60F29B962B300CA7D10 /* HXPhotoEditConfiguration.m in Sources */,
+				5A65E5CE29B962B200CA7D10 /* Tools.m in Sources */,
+				5A65E62429B962B300CA7D10 /* HXPhotoEditStickerItemContentView.m in Sources */,
+				5A65E62529B962B300CA7D10 /* HXPhotoEditChartletPreviewView.m in Sources */,
 				036681DE222E119700C1741C /* BaseViewController.m in Sources */,
+				5A65E62A29B962B300CA7D10 /* HXPhotoEditGraffitiColorView.m in Sources */,
+				5A65E5DB29B962B200CA7D10 /* NSBundle+HXPhotoPicker.m in Sources */,
 				036681E7222E139500C1741C /* FirstItemViewController.m in Sources */,
-				036681CC222E119700C1741C /* PPNetworkHelper.m in Sources */,
-				036681CF222E119700C1741C /* LXWaveProgressView.m in Sources */,
+				5A65E61629B962B300CA7D10 /* HXPhotoEditStickerTrashView.m in Sources */,
+				5A65E62B29B962B300CA7D10 /* HXPhotoEditGridLayer.m in Sources */,
+				5A65E5D029B962B200CA7D10 /* UITextView+Placeholder.m in Sources */,
+				5A65E5F129B962B300CA7D10 /* HXCustomCameraController.m in Sources */,
+				5A65E5DA29B962B200CA7D10 /* NSArray+HXExtension.m in Sources */,
 				03668159222E104300C1741C /* AppDelegate.m in Sources */,
-				036681D4222E119700C1741C /* BadgeButton.m in Sources */,
+				5A65E5F229B962B300CA7D10 /* HXCustomNavigationController.m in Sources */,
+				5A65E5EB29B962B300CA7D10 /* HXPhotoManager.m in Sources */,
 				036681D8222E119700C1741C /* BaseViewController+LoginAction.m in Sources */,
-				036681D6222E119700C1741C /* GuideView.m in Sources */,
+				5A65E5FE29B962B300CA7D10 /* HXPhotoCustomNavigationBar.m in Sources */,
 				036681ED222E13BA00C1741C /* ThirdItemViewController.m in Sources */,
-				036681DB222E119700C1741C /* WebViewProgressView.m in Sources */,
-				036681DC222E119700C1741C /* RootWebViewController.m in Sources */,
+				5A65E5F629B962B300CA7D10 /* HXPickerResult.m in Sources */,
+				5A65E60C29B962B300CA7D10 /* HXCircleProgressView.m in Sources */,
+				5A65E5CC29B962B200CA7D10 /* UITextField+Placeholder.m in Sources */,
+				5A65E62129B962B300CA7D10 /* HXPhotoEditSplashMaskLayer.m in Sources */,
+				5A65E5F429B962B300CA7D10 /* HXVideoEditViewController.m in Sources */,
+				5A65E61729B962B300CA7D10 /* HXPhotoEditImageView.m in Sources */,
+				5A65E61D29B962B300CA7D10 /* HXPhotoEditGraffitiColorSizeView.m in Sources */,
+				5A65E5D829B962B200CA7D10 /* NSString+HXExtension.m in Sources */,
+				5A65E5EC29B962B300CA7D10 /* HXCustomCameraViewController.m in Sources */,
+				5A65E62729B962B300CA7D10 /* HXPhotoEditMosaicView.m in Sources */,
+				5A65E5E229B962B300CA7D10 /* UIColor+HXExtension.m in Sources */,
+				5A65E60529B962B300CA7D10 /* HXCustomCollectionReusableView.m in Sources */,
+				5A65E60829B962B300CA7D10 /* HXPhotoSubViewCell.m in Sources */,
+				5A65E62829B962B300CA7D10 /* HXPhotoEditGraffitiColorViewCell.m in Sources */,
+				5A65E61A29B962B300CA7D10 /* HX_PhotoEditBottomView.m in Sources */,
+				5A65E5F829B962B300CA7D10 /* HXAlbumModel.m in Sources */,
+				5A65E60129B962B300CA7D10 /* HXPreviewContentView.m in Sources */,
+				5A65E60329B962B300CA7D10 /* HXPhotoLimitView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
