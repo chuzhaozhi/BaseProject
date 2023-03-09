@@ -15,7 +15,6 @@
 
 #import "AppDelegate.h"
 #import "ProjectTabBarController.h"
-#import "GuideView.h"
 @interface AppDelegate ()
 
 @end
@@ -32,16 +31,6 @@
     self.window.rootViewController = tabBarVC;
     [self.window makeKeyAndVisible];
     [[UITabBar appearance] setTranslucent:NO];
-    if ([UserDefaults getUsed]) {
-        //        [ADImageHandle setupWithVC:tabBarVC withUrl:self.trans];
-    }else{
-        
-        GuideView *guideView = [[GuideView alloc] init];
-        
-        [guideView showInView:self.window.rootViewController.view];
-        
-    }
-    return YES;
     return YES;
 }
 
